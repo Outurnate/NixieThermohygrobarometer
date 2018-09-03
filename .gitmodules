@@ -1,0 +1,9 @@
+[submodule "arduino-cmake"]
+	path = arduino-cmake
+	url = https://github.com/arduino-cmake/arduino-cmake.git
+[submodule "libs/LowPower"]
+	path = libs/LowPower
+	url = https://github.com/rocketscream/Low-Power.git
+[submodule "libs/SparkFunBME280"]
+	path = libs/SparkFunBME280
+	url = https://github.com/sparkfun/SparkFun_BME280_Arduino_Library.git
