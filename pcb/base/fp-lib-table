@@ -1,6 +1,0 @@
-(fp_lib_table
-  (lib (name RF_Modules)(type KiCad)(uri "/home/joseph/Documents/KiCAD Library/Footprints/RF_Modules.pretty")(options "")(descr ""))
-  (lib (name RF)(type KiCad)(uri "/home/joseph/Documents/KiCAD Library/Footprints/RF.pretty")(options "")(descr ""))
-  (lib (name SparkFun)(type KiCad)(uri "/home/joseph/Documents/KiCAD Library/Footprints/SparkFun.pretty")(options "")(descr ""))
-  (lib (name 74HC595)(type KiCad)(uri "/home/joseph/Documents/KiCAD Library/Footprints/74HC595.pretty")(options "")(descr ""))
-)
