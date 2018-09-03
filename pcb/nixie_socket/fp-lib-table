@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name mynixies)(type Legacy)(uri "/home/joseph/Documents/KiCAD Library/Footprints/Nixie.pretty/mynixies.mod")(options "")(descr ""))
-  (lib (name nixiemisc)(type Legacy)(uri "/home/joseph/Documents/KiCAD Library/Footprints/Nixie.pretty/nixiemisc.mod")(options "")(descr ""))
-  (lib (name nixies-us)(type Legacy)(uri "/home/joseph/Documents/KiCAD Library/Footprints/Nixie.pretty/nixies-us.mod")(options "")(descr ""))
-)
