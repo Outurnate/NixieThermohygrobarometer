@@ -33,14 +33,8 @@ int main(void)
   {
     bool datUpdate = dat.Update();
     bool panelUpdate = panel.Update();
-    DPRINT("Update values");
-    DPRINT(datUpdate);
-    DPRINT(panelUpdate);
-    DPRINT("Update values end");
     if (datUpdate || panelUpdate)
       display.ShowValue(panel.GetMode(), dat.GetValue(!panel.GetLocalRemote(), panel.GetMode()));
-
-    delay(1000);
   }
   
   return 0;

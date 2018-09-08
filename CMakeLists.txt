@@ -1,4 +1,4 @@
-set(ARDUINO_SDK_PATH ${CMAKE_SOURCE_DIR}/arduino-1.8.5)
+set(ARDUINO_SDK_PATH ${CMAKE_SOURCE_DIR}/arduino-1.8.6)
 set(CMAKE_TOOLCHAIN_FILE arduino-cmake/cmake/ArduinoToolchain.cmake)
 
 cmake_minimum_required(VERSION 2.8)
@@ -8,6 +8,7 @@ project(transmitter C CXX)
 set(SparkFunBME280_RECURSE True)
 
 link_directories(${CMAKE_SOURCE_DIR}/libs)
+include_directories(${CMAKE_SOURCE_DIR}/libs/SparkFunBME280/src)
 
 generate_arduino_firmware(transmitter
   BOARD uno
